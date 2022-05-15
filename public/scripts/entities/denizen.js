@@ -12,6 +12,7 @@ class Denizen {
     this.tank = options.tank;
     this.id = this.tank.registerDenizen(this);
     this.onClick = this.onClick.bind(this);
+
   }
 
   calcPhysicsTicks(newTime) {

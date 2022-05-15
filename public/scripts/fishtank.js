@@ -1,4 +1,3 @@
-
 class Fishtank {
   constructor(divName) {
     this.divName = divName;
